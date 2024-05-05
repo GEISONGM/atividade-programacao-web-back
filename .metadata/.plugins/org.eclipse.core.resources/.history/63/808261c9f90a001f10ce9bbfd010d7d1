@@ -1,0 +1,78 @@
+package br.com.cadUser;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import java.io.Serializable;
+import javax.faces.context.FacesContext;
+import javax.servlet.http.HttpServletRequest;
+import java.util.List;
+import java.util.ArrayList;
+
+@ManagedBean(name = "bean")
+@SessionScoped
+
+
+
+
+
+
+public class pessoa implements Serializable {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private List<Double> valores = new ArrayList<>();
+
+    public List<Double> getValores() {
+        return valores;
+    }
+
+    public void setValores(List<Double> valores) {
+        this.valores = valores;
+    }
+
+    public String processarValores() {
+        // Faça o processamento dos valores aqui (por exemplo, salvar no banco de dados)
+        System.out.println("Valores inseridos: " + valores);
+        return null; // Fique na mesma página após o processamento
+    }
+}
+
+
+
+/**public class pessoa {
+	private String nome;
+	private ArrayList<String> nomesDigitados;
+	
+	
+	public static void main(String[] args) {
+	}
+	
+	public pessoa() {
+		if(this.nomesDigitados == null) {
+			nomesDigitados = new ArrayList<String>();			
+		}
+	}
+	
+	public void setNome(String novoNome) {
+		this.nome = novoNome;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	
+	public ArrayList<String> getNomesDigitados(){
+		return this.nomesDigitados;
+	}
+
+	public void adicionarNome(){ 
+		HttpServletRequest request = (HttpServletRequest)FacesContext.getCurrentInstance().getExternalContext().getRequest();			
+        String valorInput = request.getParameter("idNome");
+		if(valorInput != null) {
+			this.nomesDigitados.add(valorInput);
+		};
+		System.out.print(this.nomesDigitados.size());
+	}
+	
+}*/

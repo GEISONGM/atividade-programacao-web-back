@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Formulário de contato</title>
+<link type="text/css" rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+	<h1>Formulário</h1>
+
+	<form class="form" method="post">
+		<div id="container">
+			<label for="nome">Nome:</label> 
+			<!--<input class="entrada" type="text" id="nome" name="nome" required="required" />-->
+			<h:inputText class="entrada" id="nome"  required="required" />
+			<label for="telefone">Telefone:</label>
+			<!--<input class="entrada" type="text" id="telefone" name="telefone" required="required" />-->
+			<h:inputText  class="entrada" id="telefone" required="required" /> 
+			<label for="email">E-mail:</label>
+			<!--<input class="entrada" type="email" id="email" name="email" required="required" />-->
+			<h:inputText class="entrada" id="email" required="required" />
+			<label for="mensagem">Mensagem:</label>
+			<h:inputTextarea class="entrada" id="mensagem"  name="mensagem" rows="4" required="required" cols=""/>
+			<h:input class="enviar" type="submit" value="Enviar" />
+		</div>
+
+	</form>
+</body>
+
+</html>

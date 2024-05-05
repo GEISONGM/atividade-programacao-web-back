@@ -1,0 +1,44 @@
+package br.com.cadUser;
+
+import javax.faces.application.Application;
+import javax.faces.bean.ManagedBean;
+import javax.faces.component.html.HtmlOutputText;
+import javax.faces.component.html.HtmlPanelGrid;
+import javax.faces.context.FacesContext;
+import javax.servlet.http.HttpServletRequest;
+
+import java.util.*;
+
+@ManagedBean
+public class pessoa {
+	private String nome;
+	private ArrayList<String> nomesDigitados = new ArrayList<String>();
+	private HtmlPanelGrid painel;
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public void setNome(String novoNome) {
+		this.nome = novoNome;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void adicionarNome()  { 
+		HttpServletRequest request = (HttpServletRequest)FacesContext.getCurrentInstance().getExternalContext().getRequest();			
+        String valorInput = request.getParameter("idNome");
+		System.out.print(valorInput);
+		if(valorInput != null) {
+			this.nomesDigitados.add(valorInput);
+		};
+		Application aplication = FacesContext.getCurrentInstance().getApplication();
+		HtmlOutputText texto = (HtmlOutputText) aplication.createComponent(HtmlOutputText.COMPONENT_TYPE);
+		List children = painel.getChildren();
+		texto.setValue(valorInput);
+		children.add(texto);
+	}
+	
+}

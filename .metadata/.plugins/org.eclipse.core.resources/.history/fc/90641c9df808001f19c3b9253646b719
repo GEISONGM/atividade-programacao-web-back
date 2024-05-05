@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+
+body {
+	align-items: center;
+    background-color: #c9c9c9;
+    width: 25%;
+    padding: 60px;
+    margin-bottom: 10px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}

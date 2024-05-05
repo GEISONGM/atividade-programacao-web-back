@@ -1,0 +1,46 @@
+package br.com.cadUser;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+import javax.servlet.http.HttpServletRequest;
+
+import java.util.*;
+
+@ManagedBean
+public class pessoa {
+	private String nome;
+	private ArrayList<String> nomesDigitados = new ArrayList<String>();
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public void setNome(String novoNome) {
+		this.nome = novoNome;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void adicionarNome() throws ScriptException  { 
+		HttpServletRequest request = (HttpServletRequest)FacesContext.getCurrentInstance().getExternalContext().getRequest();			
+        String valorInput = request.getParameter("idNome");
+		System.out.print(valorInput);
+		if(valorInput != null) {
+			this.nomesDigitados.add(valorInput);
+		}
+		
+		String expressao = "Jaison";
+		
+		ScriptEngineManager manager = new ScriptEngineManager();
+        ScriptEngine engine = manager.getEngineByName("JavaScript");
+        String expressaoConvertida = expressao.replace("Jaison", "Geison");
+        Boolean e = (Boolean) engine.eval(expressaoConvertida);
+        System.out.print((boolean) engine.eval(expressaoConvertida));
+	}
+	
+}

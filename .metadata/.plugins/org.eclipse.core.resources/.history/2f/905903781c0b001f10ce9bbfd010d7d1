@@ -1,0 +1,57 @@
+package br.com.cadUser;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+import javax.servlet.http.HttpServletRequest;
+
+@ManagedBean(name = "nomeBean")
+
+
+public class pessoa implements Serializable{
+	private String nome;
+	private List<String> nomesDigitados = new ArrayList<String>();
+	
+	
+	//public static void main(String[] args) {}
+	
+	/**public pessoa() {
+		if(this.nomesDigitados == null) {
+			nomesDigitados = new ArrayList<String>();      			
+		}
+	}*/
+	
+	public void setNome(String novoNome) {
+		this.nome = novoNome;
+	}
+	
+	public List<String> getNome() {
+		return nomesDigitados;
+	}
+	
+	public void adicionarNome() {
+		nomesDigitados.add(nome);
+	}
+	
+	/**public ArrayList<String> getNomesDigitados(){
+		return this.nomesDigitados;
+	}*/
+	
+	/**public void adicionarNome(){ 
+		HttpServletRequest request = (HttpServletRequest)FacesContext.getCurrentInstance().getExternalContext().getRequest();			
+        String valorInput = request.getParameter("idNome");
+		if(valorInput != null) {
+			if(this.nomesDigitados.size() > 0) {
+				this.nomesDigitados.add(this.nomesDigitados.size()+1, valorInput);
+			} else {
+				this.nomesDigitados.add(valorInput);
+			}
+		};
+		System.out.print(this.nomesDigitados.size());
+		
+	}*/
+	
+}

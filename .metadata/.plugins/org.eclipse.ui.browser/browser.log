@@ -1,0 +1,113 @@
+
+abr. 25, 2024 20:46:48.82 NEW SESSION
+abr. 25, 2024 20:46:48.83 Created TensorFlow Lite XNNPACK delegate for CPU.
+abr. 25, 2024 21:04:49.48 [2180:5968:0425/210449.479:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+abr. 25, 2024 21:04:49.48 [2180:5968:0425/210449.479:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+abr. 25, 2024 21:21:38.66 [2180:5968:0425/212138.662:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+abr. 28, 2024 08:03:53.35 NEW SESSION
+abr. 28, 2024 08:03:53.36 Created TensorFlow Lite XNNPACK delegate for CPU.
+abr. 28, 2024 08:10:36.33 [13540:4844:0428/081036.336:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for cs.axis-marketplace.com failed:
+abr. 28, 2024 08:10:36.33 ----- Certificate i=0 (CN=*.axis-marketplace.com) -----
+abr. 28, 2024 08:10:36.33 ERROR: Time is after notAfter
+abr. 28, 2024 08:10:36.33 
+abr. 28, 2024 08:10:36.33 
+abr. 28, 2024 08:26:04.62 [13540:10508:0428/082604.627:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+abr. 28, 2024 08:26:04.62 [13540:10508:0428/082604.627:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+abr. 28, 2024 09:01:34.60 [13540:14168:0428/090134.604:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+abr. 28, 2024 09:04:01.32 [13540:14168:0428/090401.321:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+abr. 28, 2024 09:04:01.90 [13540:10508:0428/090401.900:ERROR:device_event_log_impl.cc(195)] [09:04:01.900] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Elemento nÃ£o encontrado. (0x490)
+abr. 28, 2024 09:04:05.78 [13540:10508:0428/090405.779:ERROR:device_event_log_impl.cc(195)] [09:04:05.780] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Elemento nÃ£o encontrado. (0x490)
+
+abr. 28, 2024 16:29:32.10 NEW SESSION
+abr. 28, 2024 16:29:32.11 Created TensorFlow Lite XNNPACK delegate for CPU.
+abr. 28, 2024 16:59:40.03 [12944:16880:0428/165940.032:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+abr. 29, 2024 18:49:00.28 NEW SESSION
+abr. 29, 2024 18:49:00.29 Created TensorFlow Lite XNNPACK delegate for CPU.
+abr. 29, 2024 19:09:33.53 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+mai. 02, 2024 21:55:20.55 NEW SESSION
+mai. 02, 2024 21:55:20.56 Created TensorFlow Lite XNNPACK delegate for CPU.
+mai. 02, 2024 22:45:37.00 Created TensorFlow Lite XNNPACK delegate for CPU.
+mai. 02, 2024 23:02:06.08 [13056:16692:0502/230206.084:ERROR:CONSOLE(1)] "Request Network.loadNetworkResource failed. {"code":-32602,"message":"Unsupported URL scheme"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+mai. 02, 2024 23:44:39.16 [13056:7768:0502/234439.164:ERROR:mcs_client.cc(749)] Received close command, resetting connection.
+
+mai. 03, 2024 18:37:22.48 NEW SESSION
+mai. 03, 2024 18:37:22.49 Created TensorFlow Lite XNNPACK delegate for CPU.
+mai. 03, 2024 19:14:36.70 [3840:16216:0503/191436.703:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+mai. 03, 2024 20:57:45.44 [3840:16216:0503/205745.446:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+mai. 03, 2024 20:57:46.13 [3840:3156:0503/205746.136:ERROR:device_event_log_impl.cc(195)] [20:57:46.135] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Elemento nÃ£o encontrado. (0x490)
+mai. 03, 2024 20:57:51.04 [3840:3156:0503/205751.046:ERROR:device_event_log_impl.cc(195)] [20:57:51.046] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Elemento nÃ£o encontrado. (0x490)
+mai. 03, 2024 21:45:45.57 [3840:3156:0503/214545.576:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+mai. 04, 2024 19:37:28.57 NEW SESSION
+mai. 04, 2024 19:37:28.58 Created TensorFlow Lite XNNPACK delegate for CPU.
+mai. 04, 2024 20:17:51.37 [18312:13028:0504/201751.369:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 20:34:03.43 [18312:13028:0504/203403.433:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 20:43:16.77 [18312:13028:0504/204316.776:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 20:43:42.62 [18312:13028:0504/204342.619:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 20:46:25.71 [18312:13028:0504/204625.713:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 20:56:39.22 [18312:13028:0504/205639.220:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 21:00:22.29 [18312:13028:0504/210022.294:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 21:11:44.23 [18312:13028:0504/211144.231:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 21:14:25.55 [18312:13028:0504/211425.552:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 21:26:39.74 [18312:13028:0504/212639.743:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 21:48:31.91 [18312:13028:0504/214831.912:ERROR:interface_endpoint_client.cc(707)] Message 5 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 21:48:31.91 [18312:13028:0504/214831.912:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 21:56:15.20 [18312:13028:0504/215615.207:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 22:43:41.16 [18312:13028:0504/224341.165:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 22:44:10.14 [18312:13028:0504/224410.147:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 22:44:43.99 [18312:13028:0504/224443.995:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 22:49:29.86 [18312:13028:0504/224929.862:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 22:55:26.40 [18312:13028:0504/225526.407:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 22:59:51.59 [18312:13028:0504/225951.599:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 23:00:35.33 [18312:13028:0504/230035.334:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 23:02:36.61 [18312:13028:0504/230236.616:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 23:07:11.68 [18312:13028:0504/230711.689:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 23:08:02.82 [18312:13028:0504/230802.823:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 23:11:02.11 [18312:13028:0504/231102.118:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 23:12:20.13 [18312:13028:0504/231220.136:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 23:47:47.63 [18312:13028:0504/234747.639:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 23:48:49.54 [18312:13028:0504/234849.545:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 23:53:31.11 [18312:13028:0504/235331.115:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 04, 2024 23:54:36.03 [18312:11128:0504/235436.031:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+mai. 04, 2024 23:54:36.03 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+mai. 04, 2024 23:54:36.03 ERROR: Time is after notAfter
+mai. 04, 2024 23:54:36.03 
+mai. 04, 2024 23:54:36.03 
+mai. 04, 2024 23:58:07.88 [18312:13028:0504/235807.885:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 24:17:54.80 [18312:13028:0505/001754.804:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 24:21:20.93 [18312:13028:0505/002120.935:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 24:22:12.57 [18312:13028:0505/002212.577:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 24:50:16.12 [18312:13028:0505/005016.121:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 24:51:54.70 [18312:13028:0505/005154.702:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 24:54:48.31 [18312:13028:0505/005448.312:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 01:03:32.40 [18312:13028:0505/010332.408:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 01:04:18.52 [18312:13028:0505/010418.528:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 01:09:49.20 [18312:13028:0505/010949.200:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 01:11:21.56 [18312:13028:0505/011121.566:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 01:14:02.13 [18312:13028:0505/011402.132:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 01:31:15.20 [18312:13028:0505/013115.200:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 01:31:15.20 [18312:13028:0505/013115.201:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 01:34:08.94 [18312:13028:0505/013408.941:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 01:36:05.99 [18312:13028:0505/013605.992:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 01:42:56.92 [18312:13028:0505/014256.922:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 01:52:15.23 [18312:13028:0505/015215.239:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 02:02:37.62 [18312:13028:0505/020237.626:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 02:03:39.05 [18312:13028:0505/020339.054:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 02:06:19.35 [18312:13028:0505/020619.354:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 02:25:52.79 [18312:13028:0505/022552.796:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 02:32:30.94 [18312:13028:0505/023230.948:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 02:44:07.79 [18312:13028:0505/024407.789:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 03:08:37.50 [18312:13028:0505/030837.505:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 03:08:54.41 [18312:13028:0505/030854.412:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 03:13:18.81 [18312:13028:0505/031318.815:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 03:15:42.99 [18312:13028:0505/031542.997:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 03:21:33.95 [18312:13028:0505/032133.951:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 03:22:21.83 [18312:13028:0505/032221.834:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 03:33:02.40 [18312:13028:0505/033302.405:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+mai. 05, 2024 03:33:02.40 [18312:13028:0505/033302.405:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+mai. 05, 2024 17:54:57.04 NEW SESSION
+mai. 05, 2024 17:54:57.05 Created TensorFlow Lite XNNPACK delegate for CPU.

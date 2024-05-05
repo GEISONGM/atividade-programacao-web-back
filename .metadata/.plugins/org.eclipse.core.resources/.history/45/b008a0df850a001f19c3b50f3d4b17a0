@@ -1,0 +1,38 @@
+package br.com.cadUser;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+import javax.servlet.ServletRequest;
+import javax.servlet.http.HttpServletRequest;
+
+import org.w3c.dom.*;
+
+import java.util.*;
+
+@ManagedBean
+public class pessoa {
+	private String nome;
+	private ArrayList<String> nomesDigitados = new ArrayList<String>();
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public void setNome(String novoNome) {
+		this.nome = novoNome;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void adicionarNome()  { 
+		HttpServletRequest request = (HttpServletRequest)FacesContext.getCurrentInstance().getExternalContext().getRequest();
+        String valorInput = request.getParameter("idNome");
+		System.out.print(valorInput);
+		if(valorInput != null) {
+			this.nomesDigitados.add(valorInput);
+		}
+	}
+	
+}

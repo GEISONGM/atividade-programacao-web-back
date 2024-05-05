@@ -1,0 +1,49 @@
+package br.com.cadUser;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+import javax.servlet.ServletRequest;
+import javax.servlet.http.HttpServletRequest;
+
+import org.w3c.dom.*;
+
+import java.util.*;
+
+@ManagedBean
+public class pessoa {
+	private String nome;
+	private ArrayList<String> nomesDigitados = new ArrayList<String>();
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public void setNome(String novoNome) {
+		this.nome = novoNome;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void adicionarNome()  { 
+		HttpServletRequest request = (HttpServletRequest)FacesContext.getCurrentInstance().getExternalContext().getRequest();
+
+		String novoParagrafo = "<p>Este é um novo parágrafo adicionado dinamicamente!</p>";
+
+        // Execute o código JavaScript para adicionar o parágrafo ao corpo do documento
+        ScriptEngineManager manager = new ScriptEngineManager();
+        ScriptEngine engine = manager.getEngineByName("js");
+        
+		
+        String valorInput = request.getParameter("idNome");
+		System.out.print(valorInput);
+		if(valorInput != null) {
+			this.nomesDigitados.add(valorInput);
+		}
+	}
+	
+}

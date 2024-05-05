@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.com.cadUser.pessoa"/>
+    <fullyQualifiedTypeName name="java.awt.event.WindowListener"/>
+    <fullyQualifiedTypeName name="org.apache.catalina.connector.Request"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Document"/>
+    <fullyQualifiedTypeName name="javax.faces.component.html.HtmlOutputText"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.html.HTMLDListElement"/>
+    <fullyQualifiedTypeName name="javax.faces.component.html.HtmlBody"/>
+    <fullyQualifiedTypeName name="javax.faces.component.html.HtmlForm"/>
+    <fullyQualifiedTypeName name="org.primefaces.component.panelgrid.PanelGrid"/>
+    <fullyQualifiedTypeName name="org.primefaces.component.panelgrid.PanelGridRenderer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>
